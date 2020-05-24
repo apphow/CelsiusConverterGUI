@@ -19,12 +19,9 @@ public class CelsiusConverterGUI extends JFrame{
         Convert.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // grab the text from the CelsiusTextField
-                // convert to a double
-                // update the FahrenheitLabel
-                // parse degrees celsius
+
                 int tempFahr = (int)((Double.parseDouble(celsiusTextField.getText()))
-                * 1.8 + 12);
+                * 1.8 + 32);
                 Fahrenheit.setText(tempFahr + " Fahrenheit");
             }
         });
