@@ -1,7 +1,12 @@
 import javax.swing.*;
+// https://www.youtube.com/watch?v=-SmNpKskfJc
 
 public class CelsiusConverterGUI extends JFrame{
     private JPanel mainPanel;
+    private JButton Convert;
+    private JTextField textField1;
+    private JLabel Celsius;
+    private JLabel Fahrenheit;
 
     public CelsiusConverterGUI(String title) {
         super(title);
